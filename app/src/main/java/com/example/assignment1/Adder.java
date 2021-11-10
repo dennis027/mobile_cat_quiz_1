@@ -19,7 +19,7 @@ public class Adder extends AppCompatActivity {
         number1= findViewById(R.id.number1);
         number2=findViewById(R.id.number2);
 
-        sum = findViewById(R.id.sum);
+        sum = findViewById(R.id.calculate);
 
         sum.setOnClickListener(new View.OnClickListener() {
             @Override
